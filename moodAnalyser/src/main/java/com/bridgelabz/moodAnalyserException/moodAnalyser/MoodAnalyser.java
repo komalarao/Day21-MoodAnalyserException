@@ -3,9 +3,6 @@ package com.bridgelabz.moodAnalyserException.moodAnalyser;
 public class MoodAnalyser {
 	private String message;
 
-	public void MoodAnalyser() {
-		
-	}
 	public String moodAnalyser(String message) {
 		this.message = message;
 		if (message.contains("Sad"))
